@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Ann Sweet</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav class="navigation">
+				<img class="logo"	src="img/logo.png">
+				<ul class="nav">
+					<li><a href="#itemsall">Статьи</a></li>
+					<li><a href="#about">Обо мне</a></li>
+					<li><a href="#port">Портфолио</a></li>
+					<li><a href="#feedback">Написать мне</a></li>
+				</ul>
+			</nav>
+		</div>	
+	</header>
+	
+	<section class="main" id="#itemsall">
+		<div class="container">
+			<div class="item-all">
+				<h1>Все статьи</h1>
+				<select class="theme" name="theme">
+					<option value="all">Выбрать тему</option>
+					<option value="all">Все статьи</option>
+					<option value="travel">Путешествия</option>
+					<option value="city">Город</option>
+					<option value="books">Книги</option>
+					<option value="fotos">Фотографии</option>
+					<option value="recipe">Рецепты</option>
+							
+				</select>
+			</div>
+			<div class="items">
+				<div class="item-s item-filter" data-category="travel">
+					<a href="">
+						<img src="img/item1.jpg">
+						<h4>Путешествие в Берлин в августе</h4>
+						<p class="text">Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
+						<p class="tag">Теги: путешествия</p>
+						<p class="date">29.09.2020</p>
+					</a>	
+				</div>
+
+				<div class="item-s item-filter" data-category="city">
+					<a href="">
+						<img src="img/item2.jpg">
+						<h4>Где выпить колдбрю в Москве</h4>
+						<p class="text">Собрала для вас список любимых кофеен, где подают лучший летний напиток.</p>
+						<p class="tag">Теги: город</p>
+						<p class="date">24.07.2020</p>
+					</a>
+				</div>
+
+				<div class="item-s item-filter" data-category="books">
+					<a href="">
+						<img src="img/item3.jpg">
+						<h4>Прочитано: книжные рекомендации</h4>
+						<p class="text">Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
+						<p class="tag">Теги: книги</p>
+						<p class="date">15.07.2020</p>
+					</a>
+				</div>
+
+				<div class="item item-1 item-filter" data-category="fotos">
+					<a href="">
+						<h3>Снимки на плёнку</h3>
+						<p class="text">Поделилась с вами весенними фотографиями, и секретами удачных снимков.</p>
+						<p class="tag">Теги: фотографии</p>
+						<p class="date">29.06.2020</p>
+					</a>	
+				</div>
+
+				<div class="item item-2 item-filter" data-category="recipe">
+					<a href="">
+						<h3>Домашний чизкейк</h3>
+						<p class="text">Что может быть лучше чизкейка с сезонными ягодами? Только домашний чизкейк!</p>
+						<p class="tag">Теги: рецепты</p>
+						<p class="date">24.06.2020</p>
+					</a>
+				</div>
+			</div>
+			<button class="btn">Показать ещё</button>
+		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="container-about">
+			<h2>Обо мне</h2>
+
+			<div class="about-flex">
+				<img src="img/foto.jpg" alt="" class="foto">
+				
+				<div class="text-flex">
+					<p>Всем привет! Меня зовут Аня, и это мой личный блог. Здесь ты найдёшь рассказы о моих путешествиях, снимки на плёнку, рецепты, обзоры на книги. В общем, тексты о том что мне интересно.</p>
+					<p>Я работаю копирайтером, поэтому мой блоге — это ещё и моё портфолио. Ниже размещены несколько моих лучшихs рабочих текстов. Буду рада новым сотрудничествам!</p>
+					<p>Если вы хотите написать мне — это можно сделать в соцсетях или через <a href="#feedback">форму</a>. Всегда приятно услышать обратную связь от читателей и познакомиться поближе.</p>
+ 					<p>Приятного чтения!</p>
+					<p class="italic">Я верю, что каждый раз пробуя новое, выходящее за зону моего комфорта, я действительно узнаю настояющую себя</p>
+ 				</div>
+ 			</div>
+		</div>
+	</section>
+	<section class="portfolio" id="port">
+		<div class="container">
+			<h2>Портфолио</h2>
+			<div class="port-flex">
+				<div class="port port1">
+					<h3>Блог HTML Academy</h3>
+					<h4>«Как учиться продуктивно»</h4>
+					<p>Про основные методы обучения,<br>которые помогут быстро и надолго,<br>запомнить информацию.</p>
+				</div>
+				<div class="port port2">
+					<h3>Журнал «LNK»</h3>
+					<h4>«Зачем поцелуи нужны человеку?<br>И какие они бывают»</h4>
+					<p>Поцелуи — повсеместная ежедневная<br>практика. Но зачем люди целуются?<br>Какие смысли вкладывают в этот ритуал?<br>И где корни этой практики?</p>
+				</div>
+				<div class="port port3">
+					<h3>Журнал «Т — Л»</h3>
+					<h4>«Советы по эффективной<br>удалённой работе»</h4>
+					<p>Поделилась лайфхаками, которые помогают<br>мне работать продуктивно из дома. </p>
+				</div>
+			</div>
+			<button class="btn">Показать ещё</button>
+		</div>
+	</section>
+	<section class="feed" id="feedback">
+		<h2>Написать мне</h2>
+		<div class="container-feed">
+			<form action="" method="post" enctype="multipart/form-data" class="feed-form">
+				<div class="form-flex">
+					<div class="form-l">
+						<p><label for="user-id">Ваше Имя</label></p>
+						<input class="field" id="user-id" type="text" name="username" placeholder="Иван Иванов" required>
+					</div>
+						<div class="form-r">
+						<p><label for="email-id">Email</label></p>
+						<input class="field"id="email-id" type="email" name="usermail" placeholder="google@gmail.com" required>
+					</div>
+					<div class="form-d">
+						<p><label for="send">Сообщение</label></p>
+						<textarea name="massage" id="send" cols="30" rows="10" class="massage" placeholder="Напишите здесь ваше сообщение." minlength="10"></textarea> 
+					</div>
+				</div>
+				<button class="btn-feed" type="submit">Отправить</button>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<div class="foot-flex">
+		<p><a href="">ВК</a></p>
+		<p><a href="">Телеграм</a></p>
+		<p><a href="">Инстаграм</a></p>
+		<p><a href="">Твиттер</a></p>
+	</div>
+	</footer>
+	<script src="comments2.js"></script>
+	<script src="filter.js"></script>
+</body>
+</html>
